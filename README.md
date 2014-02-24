@@ -1,10 +1,10 @@
-=== DuplexBufferStream
+### DuplexBufferStream
 
 A simple implementation of Stream.Duplex spec in Node.js.
 
-=== Example
+### Example
 
-===== tee.js:
+##### tee.js:
 
 `
 var DuplexBufferStream = require('duplexbufferstream');
@@ -19,7 +19,7 @@ tee.on('data', function(chunk) {
 });
 `
 
-=== Execution
+### Execution
 
 `
 $ echo "hello world" | node tee.js tee.output.log; cat tee.output.log
