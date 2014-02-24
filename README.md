@@ -4,7 +4,7 @@ A simple implementation of Stream.Duplex spec in Node.js.
 
 ### Example
 
-##### tee.js:
+##### tee.js
 
 `
 var DuplexBufferStream = require('duplexbufferstream');
