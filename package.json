@@ -1,0 +1,25 @@
+{
+  "name": "duplexbufferstream",
+  "version": "0.0.1",
+  "description": "A simple implementation of Stream.Duplex spec in Node.js",
+  "main": "./lib/duplexbufferstream",
+  "directories": {
+    "example": "example"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohan43u/duplexbufferstream"
+  },
+  "keywords": [
+    "['stream'",
+    "'buffer'",
+    "'duplexbufferstream'",
+    "'Duplex']"
+  ],
+  "author": "Mohan R <mohan43u@gmail.com> (http://mohan43u.wordpress.com)",
+  "license": "BDS-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mohan43u/duplexbufferstream/issues"
+  },
+  "homepage": "https://github.com/mohan43u/duplexbufferstream"
+}
