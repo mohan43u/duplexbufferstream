@@ -7,6 +7,7 @@ A simple implementation of Stream.Duplex spec in Node.js.
 ##### tee.js
 
 `
+
 var DuplexBufferStream = require('duplexbufferstream');
 var fs = require('fs');
 
@@ -17,6 +18,7 @@ var teeout = process.argv.length > 2 ? fs.createWriteStream(process.argv[2]) : p
 tee.on('data', function(chunk) {
     teeout.write(chunk);
 });
+
 `
 
 ### Execution
